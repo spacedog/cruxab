@@ -1,0 +1,167 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/nxclient -> ../lib/NX/bin/nxclient
+lrwxrwxrwx	root/root	usr/bin/nxesd -> ../lib/NX/bin/nxesd
+lrwxrwxrwx	root/root	usr/bin/nxkill -> ../lib/NX/bin/nxkill
+lrwxrwxrwx	root/root	usr/bin/nxprint -> ../lib/NX/bin/nxprint
+lrwxrwxrwx	root/root	usr/bin/nxservice -> ../lib/NX/bin/nxservice
+lrwxrwxrwx	root/root	usr/bin/nxssh -> ../lib/NX/bin/nxssh
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/NX/
+drwxr-xr-x	root/root	usr/lib/NX/bin/
+-rwxr-xr-x	root/root	usr/lib/NX/bin/nxclient
+-rwxr-xr-x	root/root	usr/lib/NX/bin/nxesd
+-rwxr-xr-x	root/root	usr/lib/NX/bin/nxkill
+-rwxr-xr-x	root/root	usr/lib/NX/bin/nxprint
+-rwxr-xr-x	root/root	usr/lib/NX/bin/nxservice
+-rwxr-xr-x	root/root	usr/lib/NX/bin/nxssh
+drwxr-xr-x	root/root	usr/lib/NX/lib/
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcomp.so -> libXcomp.so.3.4.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcomp.so.3 -> libXcomp.so.3.4.0
+-rwxr-xr-x	root/root	usr/lib/NX/lib/libXcomp.so.3.4.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcompsh.so -> libXcompsh.so.3.4.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcompsh.so.3 -> libXcompsh.so.3.4.0
+-rwxr-xr-x	root/root	usr/lib/NX/lib/libXcompsh.so.3.4.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libcrypto.so -> libcrypto.so.0.9.8
+-rwxr-xr-x	root/root	usr/lib/NX/lib/libcrypto.so.0.9.8
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libjpeg.so -> libjpeg.so.62.0.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libjpeg.so.62 -> libjpeg.so.62.0.0
+-rwxr-xr-x	root/root	usr/lib/NX/lib/libjpeg.so.62.0.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libpng12.so -> libpng12.so.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libpng12.so.0 -> libpng12.so.0.1.2.8
+-rwxr-xr-x	root/root	usr/lib/NX/lib/libpng12.so.0.1.2.8
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libz.so -> libz.so.1.2.3
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libz.so.1 -> libz.so.1.2.3
+-rwxr-xr-x	root/root	usr/lib/NX/lib/libz.so.1.2.3
+drwxr-xr-x	root/root	usr/lib/NX/share/
+drwxr-xr-x	root/root	usr/lib/NX/share/cups/
+-rw-r--r--	root/root	usr/lib/NX/share/cups/mime.convs
+-rw-r--r--	root/root	usr/lib/NX/share/cups/mime.types
+drwxr-xr-x	root/root	usr/lib/NX/share/documents/
+drwxr-xr-x	root/root	usr/lib/NX/share/documents/client/
+-rw-r--r--	root/root	usr/lib/NX/share/documents/client/cups-info
+-rw-r--r--	root/root	usr/lib/NX/share/documents/client/license-info
+-rw-r--r--	root/root	usr/lib/NX/share/documents/client/readme-info
+drwxr-xr-x	root/root	usr/lib/NX/share/fonts/
+drwxr-xr-x	root/root	usr/lib/NX/share/fonts/TTF/
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/encodings.dir
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/fonts.dir
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/fonts.scale
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luximb.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luximbi.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luximr.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luximri.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luxirb.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luxirbi.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luxirr.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luxirri.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luxisb.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luxisbi.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luxisr.ttf
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/luxisri.ttf
+drwxr-xr-x	root/root	usr/lib/NX/share/fonts/base/
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/10x20-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/5x7-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/5x8-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/6x10-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/6x12-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/6x13-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/6x13B-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/6x13O-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/6x9-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/7x13-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/7x13B-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/7x13O-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/7x14-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/7x14B-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/8x13-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/8x13B-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/8x13O-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/9x15-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/9x15B-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/9x18-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/9x18B-ISO8859-1.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/cursor.pcf.gz
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/encodings.dir
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/fonts.alias
+-rw-r--r--	root/root	usr/lib/NX/share/fonts/base/fonts.dir
+drwxr-xr-x	root/root	usr/lib/NX/share/icons/
+drwxr-xr-x	root/root	usr/lib/NX/share/icons/16x16/
+-rw-r--r--	root/root	usr/lib/NX/share/icons/16x16/application-nx-session.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/16x16/nxclient-admin.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/16x16/nxclient-desktop.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/16x16/nxclient-icon.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/16x16/nxclient-wizard.png
+drwxr-xr-x	root/root	usr/lib/NX/share/icons/22x22/
+-rw-r--r--	root/root	usr/lib/NX/share/icons/22x22/application-nx-session.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/22x22/nxclient-admin.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/22x22/nxclient-desktop.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/22x22/nxclient-icon.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/22x22/nxclient-wizard.png
+drwxr-xr-x	root/root	usr/lib/NX/share/icons/32x32/
+-rw-r--r--	root/root	usr/lib/NX/share/icons/32x32/application-nx-session.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/32x32/nxclient-admin.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/32x32/nxclient-desktop.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/32x32/nxclient-icon.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/32x32/nxclient-wizard.png
+drwxr-xr-x	root/root	usr/lib/NX/share/icons/48x48/
+-rw-r--r--	root/root	usr/lib/NX/share/icons/48x48/application-nx-session.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/48x48/nxclient-admin.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/48x48/nxclient-desktop.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/48x48/nxclient-icon.png
+-rw-r--r--	root/root	usr/lib/NX/share/icons/48x48/nxclient-wizard.png
+drwxr-xr-x	root/root	usr/lib/NX/share/images/
+-rw-r--r--	root/root	usr/lib/NX/share/images/about-down.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/about-up.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/connect-01.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/connect-02.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/connect-03.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/connect-04.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/connect-fail-01.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/error.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/folder-shared-disabled.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/folder-shared.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/info.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/kill-dsb.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/kill.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/logo-small.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/logo.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/monitor-arrow-over.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/monitor-arrow.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/monitor-box.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/monitor-icon.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/monitor-mask.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/monitor-message.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/monitor-user-dsb.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/monitor-user.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/multimedia.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/new-session-dsb.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/new-session.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/printer-default-icon-disabled.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/printer-default-icon.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/printer-icon-disabled.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/printer-icon.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/printer-shared-disabled.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/printer-shared.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/pulldown-close.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/pulldown-suspend.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/pulldown-terminate.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/refresh-dsb.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/refresh.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/remove-dsb.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/remove.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/session-stats-01-dsb.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/session-stats-01.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/session-stats-02-dsb.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/session-stats-02.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/sharing.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/terminate-dsb.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/terminate.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/view-log-dsb.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/view-log.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/warning.png
+-rw-r--r--	root/root	usr/lib/NX/share/images/wizard.png
+-rw-r--r--	root/root	usr/lib/NX/share/keyboards
+drwxr-xr-x	root/root	usr/lib/NX/share/keys/
+-rw-r--r--	root/root	usr/lib/NX/share/keys/server.id_dsa.key
+-rw-r--r--	root/root	usr/lib/NX/share/rgb
