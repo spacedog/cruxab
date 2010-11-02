@@ -1,0 +1,18 @@
+# Description: Library for writing single instance application
+# URL: http://live.gnome.org/LibUnique
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: dbus
+
+name=libunique
+version=1.1.6
+release=1
+source=(http://ftp.gnome.org/pub/GNOME/sources/libunique/1.1/$name-$version.tar.bz2)
+
+build(){
+	cd $name-$version
+	./configure --prefix=/usr --enable-dbus=yes --enable-bacon=yes
+	make 
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/gtk-doc
+
+}

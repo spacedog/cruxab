@@ -1,0 +1,21 @@
+# Description: The SSH library
+# URL: http://www.libssh.org/ 
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: cmake libgcrypt 
+
+name=libssh
+version=0.4.6
+release=1
+source=(http://www.libssh.org/files/$name-$version.tar.gz)
+
+build(){
+	cd $name-$version
+	mkdir -p "build"
+	cd ./build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release ..
+	make
+	make DESTDIR=$PKG install
+#	rm -rf $PKG/usr/info
+#	rm -rf $PKG/usr/share/doc
+
+}
