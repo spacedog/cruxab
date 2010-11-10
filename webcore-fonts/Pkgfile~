@@ -1,0 +1,14 @@
+# Description: Core windows fonrs
+# URL: http://avi.alkalay.net/software/webcore-fonts/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: xorg
+
+name=webcore-fonts
+version=3.0
+release=1
+source=(http://avi.alkalay.net/software/$name/$name-$version.tar.gz)
+
+build(){
+	cd $name
+	install -o root -g root -m 644 -t fonts/*.ttf $PKG/usr/share/fonts/X11/TTF
+}

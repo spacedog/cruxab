@@ -1,0 +1,20 @@
+#
+# /etc/rc.d/avahi: start/stop avahi daemon
+#
+
+case $1 in
+	start)
+		/usr/bin/cntlm -c /usr/etc/cntlm.conf -P /var/run/cntlm.pid
+		;;
+	stop)
+		killall -q /usr/bin/cntlm
+		;;
+	restart)
+		$0 stop
+		sleep 2
+		$0 start
+		;;
+	*)
+		echo "Usage: $0 [start|stop|restart]"
+		;;
+esac

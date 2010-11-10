@@ -1,19 +1,17 @@
-# Description: 
-# URL: 
+# Description: Fork of the rdesktop project
+# URL: http://www.freerdp.com/
 # Maintainer: anton baranov, abaranov dot anton at gmail dot com	
-# Depends on: 
+# Depends on: xorg-libx11
 
-name=
-versio=
-release=
-source=()
+name=freerdp
+version=0.8.1
+release=1
+source=(http://downloads.sourceforge.net/project/$name/0.8/$name-$version.tar.gz)
 
 build(){
 	cd $name-$version
-	./configure --prefix=/usr --disable-nls 
+	./configure --prefix=/usr --with-x
 	make 
 	make DESTDIR=$PKG install
-	rm -rf $PKG/usr/info
-	rm -rf $PKG/usr/share/doc
 
 }

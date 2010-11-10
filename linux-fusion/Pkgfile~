@@ -1,0 +1,20 @@
+# Description: Fusion kernel module
+# URL: http://www.directfb.org
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: 
+
+name=linux-fusion
+version=8.1.2
+release=1
+source=(http://www.directfb.org/downloads/Core/$name/$name-$version.tar.gz  \
+	40-fusion.rules)
+
+build(){
+	cd $name-$version
+	sed -i -e '/depmod/d' Makefile
+	make 
+	make DESTDIR=$PKG install
+	install -d $PKG/etc/udev/rules.d
+	install -m 644 $SRC/40-fusion.rules $PKG/etc/udev/rules.d
+
+}

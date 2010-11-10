@@ -1,0 +1,1 @@
+Either run 'modprobe fusion' manually or add "fusion" to "/etc/modules
