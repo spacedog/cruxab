@@ -1,0 +1,19 @@
+# Description: Chromium is an open-source browser
+# URL: http://www.chromium.org/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: 
+
+name=
+version=
+release=
+source=()
+
+build(){
+	cd $name-$version
+	./configure --prefix=/usr --disable-nls 
+	make 
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/info
+	rm -rf $PKG/usr/share/doc
+
+}
