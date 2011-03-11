@@ -1,0 +1,18 @@
+# Description: IPython: an interactive computing environment
+# URL: http://ipython.scipy.org/moin/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: python
+
+name=ipython
+version=0.10.1
+release=1
+source=(http://ipython.scipy.org/dist/$version/$name-$version.tar.gz)
+
+build(){
+	cd $name-$version
+	python setup.py bdist
+	mkdir -p ${PKG}/usr/man/man1
+	tar -xOzf dist/$name-$version.linux-i686.tar.gz ./usr/share/man/man1/ipython.1.gz > ${PKG}/usr/man/man1/ipython.1.gz
+	tar --exclude=./usr/share -xzf dist/$name-$version.linux-i686.tar.gz -C ${PKG}
+
+}
