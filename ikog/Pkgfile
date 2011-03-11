@@ -1,0 +1,14 @@
+# Description: To-Do management
+# URL: http://www.henspace.co.uk/ikog/index.html
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: python
+
+name=ikog
+version=1.9.0
+release=1
+source=(http://www.henspace.co.uk/$name/app/$name.zip)
+
+build(){
+	install -D -m 755 -o root -g root ikog.py ${PKG}/usr/bin/ikog
+
+}
