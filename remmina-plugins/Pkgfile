@@ -3,7 +3,7 @@
 # Maintainer:	anton baranov, abaranov dot anton at gmail dot com
 # Depends on:  remmina freerdp nxclient gnutls
 name=remmina-plugins
-version=0.8.4
+version=0.9.2
 release=1
 
 source=(http://downloads.sourceforge.net/project/remmina/0.8/$name-$version.tar.gz)
