@@ -100,19 +100,19 @@ drwxr-xr-x	root/root	usr/lib/avahi/
 -rw-r--r--	root/root	usr/lib/avahi/service-types.db
 -rw-r--r--	root/root	usr/lib/libavahi-client.a
 -rwxr-xr-x	root/root	usr/lib/libavahi-client.la
-lrwxrwxrwx	root/root	usr/lib/libavahi-client.so -> libavahi-client.so.3.2.8
-lrwxrwxrwx	root/root	usr/lib/libavahi-client.so.3 -> libavahi-client.so.3.2.8
--rwxr-xr-x	root/root	usr/lib/libavahi-client.so.3.2.8
+lrwxrwxrwx	root/root	usr/lib/libavahi-client.so -> libavahi-client.so.3.2.9
+lrwxrwxrwx	root/root	usr/lib/libavahi-client.so.3 -> libavahi-client.so.3.2.9
+-rwxr-xr-x	root/root	usr/lib/libavahi-client.so.3.2.9
 -rw-r--r--	root/root	usr/lib/libavahi-common.a
 -rwxr-xr-x	root/root	usr/lib/libavahi-common.la
-lrwxrwxrwx	root/root	usr/lib/libavahi-common.so -> libavahi-common.so.3.5.2
-lrwxrwxrwx	root/root	usr/lib/libavahi-common.so.3 -> libavahi-common.so.3.5.2
--rwxr-xr-x	root/root	usr/lib/libavahi-common.so.3.5.2
+lrwxrwxrwx	root/root	usr/lib/libavahi-common.so -> libavahi-common.so.3.5.3
+lrwxrwxrwx	root/root	usr/lib/libavahi-common.so.3 -> libavahi-common.so.3.5.3
+-rwxr-xr-x	root/root	usr/lib/libavahi-common.so.3.5.3
 -rw-r--r--	root/root	usr/lib/libavahi-core.a
 -rwxr-xr-x	root/root	usr/lib/libavahi-core.la
-lrwxrwxrwx	root/root	usr/lib/libavahi-core.so -> libavahi-core.so.7.0.0
-lrwxrwxrwx	root/root	usr/lib/libavahi-core.so.7 -> libavahi-core.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libavahi-core.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libavahi-core.so -> libavahi-core.so.7.0.2
+lrwxrwxrwx	root/root	usr/lib/libavahi-core.so.7 -> libavahi-core.so.7.0.2
+-rwxr-xr-x	root/root	usr/lib/libavahi-core.so.7.0.2
 -rw-r--r--	root/root	usr/lib/libavahi-glib.a
 -rwxr-xr-x	root/root	usr/lib/libavahi-glib.la
 lrwxrwxrwx	root/root	usr/lib/libavahi-glib.so -> libavahi-glib.so.1.0.2
@@ -120,14 +120,14 @@ lrwxrwxrwx	root/root	usr/lib/libavahi-glib.so.1 -> libavahi-glib.so.1.0.2
 -rwxr-xr-x	root/root	usr/lib/libavahi-glib.so.1.0.2
 -rw-r--r--	root/root	usr/lib/libavahi-gobject.a
 -rwxr-xr-x	root/root	usr/lib/libavahi-gobject.la
-lrwxrwxrwx	root/root	usr/lib/libavahi-gobject.so -> libavahi-gobject.so.0.0.3
-lrwxrwxrwx	root/root	usr/lib/libavahi-gobject.so.0 -> libavahi-gobject.so.0.0.3
--rwxr-xr-x	root/root	usr/lib/libavahi-gobject.so.0.0.3
+lrwxrwxrwx	root/root	usr/lib/libavahi-gobject.so -> libavahi-gobject.so.0.0.4
+lrwxrwxrwx	root/root	usr/lib/libavahi-gobject.so.0 -> libavahi-gobject.so.0.0.4
+-rwxr-xr-x	root/root	usr/lib/libavahi-gobject.so.0.0.4
 -rw-r--r--	root/root	usr/lib/libavahi-ui.a
 -rwxr-xr-x	root/root	usr/lib/libavahi-ui.la
-lrwxrwxrwx	root/root	usr/lib/libavahi-ui.so -> libavahi-ui.so.0.1.3
-lrwxrwxrwx	root/root	usr/lib/libavahi-ui.so.0 -> libavahi-ui.so.0.1.3
--rwxr-xr-x	root/root	usr/lib/libavahi-ui.so.0.1.3
+lrwxrwxrwx	root/root	usr/lib/libavahi-ui.so -> libavahi-ui.so.0.1.4
+lrwxrwxrwx	root/root	usr/lib/libavahi-ui.so.0 -> libavahi-ui.so.0.1.4
+-rwxr-xr-x	root/root	usr/lib/libavahi-ui.so.0.1.4
 -rw-r--r--	root/root	usr/lib/libdns_sd.a
 -rwxr-xr-x	root/root	usr/lib/libdns_sd.la
 lrwxrwxrwx	root/root	usr/lib/libdns_sd.so -> libdns_sd.so.1.0.0

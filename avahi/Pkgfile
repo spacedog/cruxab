@@ -4,7 +4,7 @@
 # Depends on: libdaemon, dbus, dbus-python, pygtk, libglade, p5-xml-parser
 
 name=avahi
-version=0.6.28
+version=0.6.30
 release=1
 source=(http://avahi.org/download/$name-$version.tar.gz rc.$name)
 
