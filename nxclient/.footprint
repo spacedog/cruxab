@@ -16,12 +16,12 @@ drwxr-xr-x	root/root	usr/lib/NX/bin/
 -rwxr-xr-x	root/root	usr/lib/NX/bin/nxservice
 -rwxr-xr-x	root/root	usr/lib/NX/bin/nxssh
 drwxr-xr-x	root/root	usr/lib/NX/lib/
-lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcomp.so -> libXcomp.so.3.4.0
-lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcomp.so.3 -> libXcomp.so.3.4.0
--rwxr-xr-x	root/root	usr/lib/NX/lib/libXcomp.so.3.4.0
-lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcompsh.so -> libXcompsh.so.3.4.0
-lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcompsh.so.3 -> libXcompsh.so.3.4.0
--rwxr-xr-x	root/root	usr/lib/NX/lib/libXcompsh.so.3.4.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcomp.so -> libXcomp.so.3.5.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcomp.so.3 -> libXcomp.so.3.5.0
+-rwxr-xr-x	root/root	usr/lib/NX/lib/libXcomp.so.3.5.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcompsh.so -> libXcompsh.so.3.5.0
+lrwxrwxrwx	root/root	usr/lib/NX/lib/libXcompsh.so.3 -> libXcompsh.so.3.5.0
+-rwxr-xr-x	root/root	usr/lib/NX/lib/libXcompsh.so.3.5.0
 lrwxrwxrwx	root/root	usr/lib/NX/lib/libcrypto.so -> libcrypto.so.0.9.8
 -rwxr-xr-x	root/root	usr/lib/NX/lib/libcrypto.so.0.9.8
 lrwxrwxrwx	root/root	usr/lib/NX/lib/libjpeg.so -> libjpeg.so.62.0.0
@@ -37,11 +37,6 @@ drwxr-xr-x	root/root	usr/lib/NX/share/
 drwxr-xr-x	root/root	usr/lib/NX/share/cups/
 -rw-r--r--	root/root	usr/lib/NX/share/cups/mime.convs
 -rw-r--r--	root/root	usr/lib/NX/share/cups/mime.types
-drwxr-xr-x	root/root	usr/lib/NX/share/documents/
-drwxr-xr-x	root/root	usr/lib/NX/share/documents/client/
--rw-r--r--	root/root	usr/lib/NX/share/documents/client/cups-info
--rw-r--r--	root/root	usr/lib/NX/share/documents/client/license-info
--rw-r--r--	root/root	usr/lib/NX/share/documents/client/readme-info
 drwxr-xr-x	root/root	usr/lib/NX/share/fonts/
 drwxr-xr-x	root/root	usr/lib/NX/share/fonts/TTF/
 -rw-r--r--	root/root	usr/lib/NX/share/fonts/TTF/encodings.dir
