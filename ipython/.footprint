@@ -580,7 +580,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/IPython/tools/tests/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/IPython/wildcard.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/IPython/winconsole.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/IPython/winconsole.pyc
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/ipython-0.10.1-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/ipython-0.10.2-py2.7.egg-info
 drwxr-xr-x	root/root	usr/man/
 drwxr-xr-x	root/root	usr/man/man1/
 -rw-r--r--	root/root	usr/man/man1/ipython.1.gz

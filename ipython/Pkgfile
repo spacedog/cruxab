@@ -4,7 +4,7 @@
 # Depends on: python
 
 name=ipython
-version=0.10.1
+version=0.10.2
 release=1
 source=(http://ipython.scipy.org/dist/$version/$name-$version.tar.gz)
 
