@@ -4,7 +4,7 @@
 # Depends on: tcl tk
 
 name=gorilla
-version=1533
+version=15351
 release=1
 source=(http://github.com/downloads/zdia/$name/$name$version.bin)
 
