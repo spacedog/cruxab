@@ -4,9 +4,9 @@
 # Depends on: cmake libgcrypt 
 
 name=libssh
-version=0.4.6
+version=0.5.0
 release=1
-source=(http://www.libssh.org/files/$name-$version.tar.gz)
+source=(http://www.libssh.org/files/0.5/$name-$version.tar.gz)
 
 build(){
 	cd $name-$version
