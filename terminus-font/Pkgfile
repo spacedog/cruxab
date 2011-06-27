@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=terminus-font 
-version=4.30
+version=4.35
 release=1
 source=(http://downloads.sourceforge.net/project/$name/$name-$version/$name-$version.tar.gz)
 
@@ -12,10 +12,8 @@ build(){
 	cd $name-$version
 	./configure --prefix=/usr \
 		    --psfdir=/usr/share/kbd/consolefonts \
-		    --x11dir=/usr/share/fonts/terminus/ 
+		    --x11dir=/usr/share/fonts/X11/terminus/ 
 	make 
 	make DESTDIR=$PKG install
-#	rm -rf $PKG/usr/info
-#	rm -rf $PKG/usr/share/doc
 
 }
