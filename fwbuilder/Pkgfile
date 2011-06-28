@@ -22,4 +22,7 @@ build() {
 	rm -rf $PKG/usr/share/doc
 	rm -rf $PKG/usr/share/help
 
+	rm -rf $PKG/usr/share/$name-$version/help
+	rm -rf $PKG/usr/share/$name-$version/locale
+
 }
