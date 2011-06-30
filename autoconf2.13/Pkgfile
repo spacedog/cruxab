@@ -1,0 +1,20 @@
+# Description: For use only with packages that cannot easily be updated to use Autoconf 2.50+
+# URL: http://www.gnu.org/software/autoconf/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: 
+
+name=autoconf2.13
+version=2.13
+release=1
+source=(http://ftp.gnu.org/gnu/autoconf/autoconf-$version.tar.gz)
+
+build(){
+	cd autoconf-$version
+	./configure --prefix=/usr --program-suffix=2.13 --mandir=$PKG/usr/man 
+	make 
+	make prefix=$PKG/usr install
+
+	mv $PKG/usr/share/autoconf $PKG/usr/share/autoconf2.13
+	rm -r $PKG/usr/info
+
+}

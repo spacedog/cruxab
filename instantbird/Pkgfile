@@ -1,0 +1,24 @@
+# Description: Instant messanger 
+# URL: http://www.instantbird.com
+# Maintainer: abaranov dot anton at gmail dot com
+# Packager: abaranov dot anton at gmail dot com
+# Depends on: gtk perl python
+
+name=instantbird
+version=1.0
+release=1
+source=(http://www.instantbird.com/downloads/$version/$name-$version.en-US.linux-i686.tar.bz2)
+
+build() {
+	mkdir -p $PKG/usr/share/$name 
+	mkdir -p $PKG/usr/bin
+	cd $name 
+	cp -r ./ $PKG/usr/share/$name
+
+	find $PKG/usr/share/$name/ -type d -exec chmod +x {} \;
+	chmod -R +r $PKG/usr/share/$name
+	chmod +x $PKG/usr/share/$name/{run-mozilla.sh,plugin-container,updater,crashreporter,lib*}
+	
+	ln -s /usr/share/instantbird/instantbird $PKG/usr/bin/instantbird
+
+}
