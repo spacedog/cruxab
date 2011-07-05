@@ -14,7 +14,11 @@ build() {
 	sed -i -e "s/USE_NLS=yes/USE_NLS=no/" \
 			 -e "s/ENABLE_NLS 1/ENABLE_NLS 0/" configure
 
-	./configure --prefix=/usr --mandir=/usr/man --libexecdir=/usr/lib/GConf --disable-gtk-doc
+	./configure --prefix=/usr \
+					--sysconfdir=/etc \
+					--mandir=/usr/man \
+					--libexecdir=/usr/lib/GConf \
+					--disable-gtk-doc
 
 	make
 	make DESTDIR=$PKG install
