@@ -1,0 +1,26 @@
+# Description: The enlightened sound daemon
+# URL: http://www.gnome.org
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: audiofile
+
+name=esound
+version=0.2.41
+release=1
+source=(ftp://ftp.gnome.org/pub/GNOME/sources/$name/0.2/$name-$version.tar.bz2)
+
+build(){
+	cd $name-$version
+
+	sed -i -e "s/USE_NLS=yes/USE_NLS=no/" \
+					 -e "s/ENABLE_NLS 1/ENABLE_NLS 0/" configure
+
+	#export CFLAGS="$CFLAGS -D_GNU_SOURCE"
+	#echo $CFLAGS
+
+	./configure --prefix=/usr \
+					--mandir=/usr/man \
+					--sysconfdir=/etc 
+	make all
+	make DESTDIR=$PKG install
+
+}
