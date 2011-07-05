@@ -1,0 +1,27 @@
+# Description: HTML rendering/editing library
+# URL: http://www.gnome.org
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: gtk expat
+
+name=libgtkhtml
+version=2.11.1
+release=1
+source=(ftp://ftp.gnome.org/pub/GNOME/sources/$name/2.11/$name-$version.tar.bz2)
+
+build(){
+	cd $name-$version
+
+	sed -i -e 's/USE_NLS=yes/USE_NLS=no/' \
+ 			 -e 's/ENABLE_NLS 1/ENABLE_NLS 0/' configure
+
+	./configure --prefix=/usr \
+					--mandir=/usr/man \
+					--disable-nls \
+					--disable-gtk-doc
+
+	make 
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/gtk-doc
+
+}
