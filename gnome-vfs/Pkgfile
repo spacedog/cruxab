@@ -1,0 +1,29 @@
+# Description: virtual filesystem abstraction Library
+# URL: http://www.gnome.org/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: avahi gconf gnome-mime-data
+
+name=gnome-vfs
+version=2.24.4
+release=1
+source=(ftp://ftp.gnome.org/pub/GNOME/sources/$name/2.24/$name-$version.tar.bz2)
+
+build(){
+	cd $name-$version
+
+	sed -i -e "s/USE_NLS=yes/USE_NLS=no/" \
+				 -e "s/ENABLE_NLS 1/ENABLE_NLS 0/" configure
+
+	./configure --prefix=/usr \
+		    --mandir=/usr/man \
+		    --sysconfdir=/etc \
+		    --disable-gtk-doc \
+		    --enable-avahi \
+		    --disable-howl \
+		    --disable-schemas-install 
+
+	make 
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/gtk-doc
+}
