@@ -1,0 +1,26 @@
+# Description: base MIME and Application database for GNOME
+# URL: http://www.gnome.org/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: libxml2
+
+name=gnome-mime-data
+version=2.18.0
+release=1
+source=(ftp://ftp.gnome.org/pub/GNOME/sources/$name/2.18/$name-$version.tar.bz2)
+
+build(){
+	cd $name-$version
+
+	sed -i -e "s/USE_NLS=yes/USE_NLS=no/" \
+				 -e "s/ENABLE_NLS 1/ENABLE_NLS 0/" configure
+
+	./configure --prefix=/usr \
+				   --mandir=/usr/man \
+					--disable-gtk-doc \
+					--disable-schemas-install 
+
+	make 
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/gtk-doc
+}
