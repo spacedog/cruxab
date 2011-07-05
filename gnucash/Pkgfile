@@ -2,7 +2,7 @@
 # URL: http://www.gnucash.org/
 # Maintainer: abaranov dot anton at gmail dot com
 # Packager: abaranov dot anton at gmail dot com
-# Depends on: slib swig libofx aqbanking libgnomeui libgoffice gtkhtml libgnome-keyring
+# Depends on: slib swig libofx libgnomeui libgoffice gtkhtml libgnome-keyring
 
 name=gnucash
 version=2.4.7
@@ -18,7 +18,7 @@ build() {
 					--disable-schemas-install \
 					--disable-debug \
 					--enable-ofx \
-					--enable-aqbanking \
+					--disable-aqbanking \
 					--disable-doxygen \
 					--disable-html-docs 
 	make 

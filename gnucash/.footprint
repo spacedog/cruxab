@@ -16,7 +16,6 @@ drwxr-xr-x	root/root	usr/etc/gconf/schemas/
 -rw-r--r--	root/root	usr/etc/gconf/schemas/apps_gnucash_dialog_business_common.schemas
 -rw-r--r--	root/root	usr/etc/gconf/schemas/apps_gnucash_dialog_commodities.schemas
 -rw-r--r--	root/root	usr/etc/gconf/schemas/apps_gnucash_dialog_common.schemas
--rw-r--r--	root/root	usr/etc/gconf/schemas/apps_gnucash_dialog_hbci.schemas
 -rw-r--r--	root/root	usr/etc/gconf/schemas/apps_gnucash_dialog_prices.schemas
 -rw-r--r--	root/root	usr/etc/gconf/schemas/apps_gnucash_dialog_print_checks.schemas
 -rw-r--r--	root/root	usr/etc/gconf/schemas/apps_gnucash_dialog_reconcile.schemas
@@ -259,8 +258,6 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/gnucash/
 -rwxr-xr-x	root/root	usr/lib/gnucash/libgncmod-app-utils.la
 -rwxr-xr-x	root/root	usr/lib/gnucash/libgncmod-app-utils.so
--rwxr-xr-x	root/root	usr/lib/gnucash/libgncmod-aqbanking.la
--rwxr-xr-x	root/root	usr/lib/gnucash/libgncmod-aqbanking.so
 -rwxr-xr-x	root/root	usr/lib/gnucash/libgncmod-backend-dbi.la
 -rwxr-xr-x	root/root	usr/lib/gnucash/libgncmod-backend-dbi.so
 -rwxr-xr-x	root/root	usr/lib/gnucash/libgncmod-backend-xml.la
@@ -744,7 +741,6 @@ drwxr-xr-x	root/root	usr/share/gnucash/checks/
 drwxr-xr-x	root/root	usr/share/gnucash/glade/
 -rw-r--r--	root/root	usr/share/gnucash/glade/account.glade
 -rw-r--r--	root/root	usr/share/gnucash/glade/acctperiod.glade
--rw-r--r--	root/root	usr/share/gnucash/glade/aqbanking.glade
 -rw-r--r--	root/root	usr/share/gnucash/glade/autoclear.glade
 -rw-r--r--	root/root	usr/share/gnucash/glade/bi_import.glade
 -rw-r--r--	root/root	usr/share/gnucash/glade/billterms.glade
@@ -987,7 +983,6 @@ drwxr-xr-x	root/root	usr/share/gnucash/scm/qif-import/
 drwxr-xr-x	root/root	usr/share/gnucash/ui/
 -rw-r--r--	root/root	usr/share/gnucash/ui/gnc-main-window-ui.xml
 -rw-r--r--	root/root	usr/share/gnucash/ui/gnc-plugin-account-tree-ui.xml
--rw-r--r--	root/root	usr/share/gnucash/ui/gnc-plugin-aqbanking-ui.xml
 -rw-r--r--	root/root	usr/share/gnucash/ui/gnc-plugin-basic-commands-ui.xml
 -rw-r--r--	root/root	usr/share/gnucash/ui/gnc-plugin-bi_import-ui.xml
 -rw-r--r--	root/root	usr/share/gnucash/ui/gnc-plugin-budget-ui.xml
