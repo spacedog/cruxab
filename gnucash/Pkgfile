@@ -1,0 +1,30 @@
+# Description: Personal and small-business financial-accounting software
+# URL: http://www.gnucash.org/
+# Maintainer: abaranov dot anton at gmail dot com
+# Packager: abaranov dot anton at gmail dot com
+# Depends on: slib swig libofx aqbanking libgnomeui libgoffice gtkhtml libgnome-keyring
+
+name=gnucash
+version=2.4.7
+release=1
+source=(http://downloads.sourceforge.net/sourceforge/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+					--mandir=/usr/man \
+					--disable-nls \
+					--disable-schemas-install \
+					--disable-debug \
+					--enable-ofx \
+					--enable-aqbanking \
+					--disable-doxygen \
+					--disable-html-docs 
+	make 
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/info
+	rm -rf $PKG/usr/share/$name/doc
+}
