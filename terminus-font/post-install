@@ -1,6 +1,0 @@
-#!/bin/sh
-#
-
-fc-cache
-mkfontscale /usr/share/fonts/X11/terminus
-mkfontdir /usr/share/fonts/X11/terminus
