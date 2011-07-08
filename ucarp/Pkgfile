@@ -6,7 +6,9 @@
 name=ucarp
 version=1.5.2
 release=1
-source=(http://download.pureftpd.org/pub/$name/$name-$version.tar.bz2 ucarp )
+source=(http://download.pureftpd.org/pub/$name/$name-$version.tar.bz2 \
+			ucarp \
+			ucarp.8.gz )
 
 build(){
 	cd $name-$version
@@ -18,4 +20,5 @@ build(){
 	make DESTDIR=$PKG install
 
 	install -D -o root -g root -m 755 $SRC/$name $PKG/etc/rc.d/$name
+	install -D -o root -g root -m 644 $SRC/$name.8.gz $PKG/usr/man/man8/$name.8.gz
 }
