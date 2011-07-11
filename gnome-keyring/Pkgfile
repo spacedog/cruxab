@@ -4,7 +4,7 @@
 # Depends on: libbonoboui libgcrypt libtasn1
 
 name=gnome-keyring
-version=0.8
+version=0.8.1
 release=1
 source=(ftp://ftp.gnome.org/pub/GNOME/sources/$name/0.8/$name-$version.tar.bz2)
 
