@@ -1,0 +1,68 @@
+#
+# /etc/rc.d/quagga: start/stop quagga daemon
+#
+DAEMONS="zebra ripd ospfd bgpd"
+CONF_PATH="/etc/quagga"
+PID_PATH="/var/run/quagga"
+EXEC_PATH="/usr/lib/quagga"
+
+check_conf()
+{
+	if [ -e $CONF_PATH/$1.conf ]; then
+		return 0
+	fi
+	echo "$CONF_PATH/$1.conf: not found"
+	return 1
+}
+check_started()
+{
+	if [ -e $PID_PATH/$1.pid ] ; then
+		return 0
+	fi
+		return 1
+}
+
+case $1 in
+	start)
+		for daemon in $DAEMONS ; do
+			echo -n "$daemon "
+			if check_conf $daemon ; then 
+				$daemon -d  -f $CONF_PATH/$daemon.conf -i $PID_PATH/$daemon.pid 
+				RETVAL=$?
+
+				if [ $RETVAL -eq 0 ]; then 
+					echo "started"
+				else
+					echo "failed"
+				fi
+
+			fi
+		done
+		;;
+	stop)
+		for daemon in $DAEMONS ; do
+			if check_started $daemon ; then
+				echo -n "$daemon "
+				PID=`cat $PID_PATH/$daemon.pid`
+				kill -9 $PID 
+				RETVAL=$?
+
+				if [ $RETVAL -eq 0 ];  then
+					rm -f $PID_PATH/$daemon.pid
+					rm -f $PID_PATH/$daemon.vty
+					echo "stoppped" 
+				else
+					echo "failed"
+				fi
+			fi
+		done
+		;;
+	restart)
+		$0 stop
+		sleep 5
+		$0 start
+		;;
+	*)
+		echo "Usage: $0 [start|stop|restart]"
+		;;
+esac

@@ -1,0 +1,39 @@
+# Description: Routing Suite
+# URL: http://www.quagga.net/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: net-snmp
+
+name=quagga
+version=0.99.18
+release=1
+source=(http://www.quagga.net/download/$name-$version.tar.gz \
+		  ipv6-ifdef2.patch \
+		  rc.quagga)
+
+build(){
+	cd $name-$version
+
+	patch -p1 < $SRC/ipv6-ifdef2.patch
+
+	mkdir -p $PKG/var/run/quagga
+	chown -R quagga:quagga $PKG/var/run/quagga
+	install -D -o root -g root -m 755 $SRC/rc.quagga $PKG/etc/rc.d/quagga
+
+	./configure --prefix=/usr \
+					--sysconfdir=/etc/quagga \
+					--localstatedir=/var/run/quagga \
+					--disable-doc \
+					--disable-ipv6 \
+					--enable-vtysh \
+					--enable-netlink \
+					--enable-snmp \
+					--enable-multipath=0 \
+					--enable-user=quagga \
+					--enable-group=quagga \
+					--enable-vty-group=quaggavty
+
+	make 
+	make DESTDIR=$PKG install
+
+
+}

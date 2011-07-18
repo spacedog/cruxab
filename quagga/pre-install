@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# check for quagga/quaggavty group or add one
+getent group quaggavty || /usr/sbin/groupadd -g 112 quaggavty
+getent group quagga || /usr/sbin/groupadd -g 113 quagga 
+
+# check for avahi user or add one
+getent passwd quagga || /usr/sbin/useradd -g quagga -d /var/empty -s /bin/false -c "Quagga User" quagga 
+
+# lock the account
+/usr/bin/passwd -l quagga 
