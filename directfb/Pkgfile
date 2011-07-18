@@ -4,9 +4,9 @@
 # Depends on: linux-fusion
 
 name=directfb
-version=1.4.10
+version=1.5.1
 release=1
-source=(http://www.directfb.org/downloads/Core/DirectFB-1.4/DirectFB-$version.tar.gz)
+source=(http://www.directfb.org/downloads/Core/DirectFB-1.5/DirectFB-$version.tar.gz)
 
 build(){
 	cd DirectFB-$version
