@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=linux-fusion
-version=8.3.1
+version=8.4.0
 release=1
 source=(http://www.directfb.org/downloads/Core/$name/$name-$version.tar.gz  \
 	40-fusion.rules)
