@@ -1,0 +1,20 @@
+# Description: Top-like interface to netfilter connection-tracking table
+# URL: http://www.phildev.net/iptstate/index.shtml
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: libnetfilter_conntrack
+
+name=iptstate
+version=2.2.3
+release=1
+source=(http://download.sourceforge.net/sourceforge/$name/$name-$version.tar.bz2)
+build(){
+	cd $name-$version
+
+	mkdir -p $PKG/usr/{man,sbin}
+	sed -e "s|^\(\s*PREFIX[\?]*\s*=\s*\).*|\1 $PKG/usr|" \
+ 	    -e "s|^\(\s*MAN[\?]*\s*=\s*\).*|\1 \$\(PREFIX\)/man|" \
+	    -i Makefile
+	make 
+	make install
+
+}
