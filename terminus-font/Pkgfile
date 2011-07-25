@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=terminus-font 
-version=4.35
+version=4.36
 release=1
 source=(http://downloads.sourceforge.net/project/$name/$name-$version/$name-$version.tar.gz)
 
