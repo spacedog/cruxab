@@ -4,9 +4,9 @@
 # Depends on: python
 
 name=ipython
-version=0.10.2
+version=0.11
 release=1
-source=(http://ipython.scipy.org/dist/$version/$name-$version.tar.gz)
+source=(http://archive.ipython.org/release/$version/$name-$version.tar.gz)
 
 build(){
 	cd $name-$version
