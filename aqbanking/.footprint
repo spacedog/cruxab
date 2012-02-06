@@ -200,25 +200,25 @@ drwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/
 -rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/swift.so
 -rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/60/dbio/swift.xml
 -rwxr-xr-x	root/root	usr/lib/libaqbanking.la
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.33.0.11
-lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.33 -> libaqbanking.so.33.0.11
--rwxr-xr-x	root/root	usr/lib/libaqbanking.so.33.0.11
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so -> libaqbanking.so.33.0.22
+lrwxrwxrwx	root/root	usr/lib/libaqbanking.so.33 -> libaqbanking.so.33.0.22
+-rwxr-xr-x	root/root	usr/lib/libaqbanking.so.33.0.22
 -rwxr-xr-x	root/root	usr/lib/libaqbankingpp.la
 lrwxrwxrwx	root/root	usr/lib/libaqbankingpp.so -> libaqbankingpp.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libaqbankingpp.so.0 -> libaqbankingpp.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libaqbankingpp.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libaqhbci.la
-lrwxrwxrwx	root/root	usr/lib/libaqhbci.so -> libaqhbci.so.20.0.0
-lrwxrwxrwx	root/root	usr/lib/libaqhbci.so.20 -> libaqhbci.so.20.0.0
--rwxr-xr-x	root/root	usr/lib/libaqhbci.so.20.0.0
+lrwxrwxrwx	root/root	usr/lib/libaqhbci.so -> libaqhbci.so.20.0.4
+lrwxrwxrwx	root/root	usr/lib/libaqhbci.so.20 -> libaqhbci.so.20.0.4
+-rwxr-xr-x	root/root	usr/lib/libaqhbci.so.20.0.4
 -rwxr-xr-x	root/root	usr/lib/libaqnone.la
-lrwxrwxrwx	root/root	usr/lib/libaqnone.so -> libaqnone.so.33.0.11
-lrwxrwxrwx	root/root	usr/lib/libaqnone.so.33 -> libaqnone.so.33.0.11
--rwxr-xr-x	root/root	usr/lib/libaqnone.so.33.0.11
+lrwxrwxrwx	root/root	usr/lib/libaqnone.so -> libaqnone.so.33.0.22
+lrwxrwxrwx	root/root	usr/lib/libaqnone.so.33 -> libaqnone.so.33.0.22
+-rwxr-xr-x	root/root	usr/lib/libaqnone.so.33.0.22
 -rwxr-xr-x	root/root	usr/lib/libaqofxconnect.la
-lrwxrwxrwx	root/root	usr/lib/libaqofxconnect.so -> libaqofxconnect.so.7.0.1
-lrwxrwxrwx	root/root	usr/lib/libaqofxconnect.so.7 -> libaqofxconnect.so.7.0.1
--rwxr-xr-x	root/root	usr/lib/libaqofxconnect.so.7.0.1
+lrwxrwxrwx	root/root	usr/lib/libaqofxconnect.so -> libaqofxconnect.so.7.0.2
+lrwxrwxrwx	root/root	usr/lib/libaqofxconnect.so.7 -> libaqofxconnect.so.7.0.2
+-rwxr-xr-x	root/root	usr/lib/libaqofxconnect.so.7.0.2
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/aqbanking.pc
 drwxr-xr-x	root/root	usr/share/
@@ -240,6 +240,7 @@ drwxr-xr-x	root/root	usr/share/aqbanking/backends/aqhbci/dialogs/
 -rw-r--r--	root/root	usr/share/aqbanking/backends/aqhbci/dialogs/dlg_choose_usertype.dlg
 -rw-r--r--	root/root	usr/share/aqbanking/backends/aqhbci/dialogs/dlg_ddvcard.dlg
 -rw-r--r--	root/root	usr/share/aqbanking/backends/aqhbci/dialogs/dlg_ddvcard_special.dlg
+-rw-r--r--	root/root	usr/share/aqbanking/backends/aqhbci/dialogs/dlg_editaccount.dlg
 -rw-r--r--	root/root	usr/share/aqbanking/backends/aqhbci/dialogs/dlg_edituserddv.dlg
 -rw-r--r--	root/root	usr/share/aqbanking/backends/aqhbci/dialogs/dlg_edituserpintan.dlg
 -rw-r--r--	root/root	usr/share/aqbanking/backends/aqhbci/dialogs/dlg_edituserrdh.dlg
@@ -338,6 +339,7 @@ drwxr-xr-x	root/root	usr/share/aqbanking/imexporters/eri2/
 drwxr-xr-x	root/root	usr/share/aqbanking/imexporters/ofx/
 drwxr-xr-x	root/root	usr/share/aqbanking/imexporters/ofx/profiles/
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/ofx/profiles/default.conf
+-rw-r--r--	root/root	usr/share/aqbanking/imexporters/ofx/profiles/iso8859.conf
 drwxr-xr-x	root/root	usr/share/aqbanking/imexporters/openhbci1/
 drwxr-xr-x	root/root	usr/share/aqbanking/imexporters/openhbci1/profiles/
 -rw-r--r--	root/root	usr/share/aqbanking/imexporters/openhbci1/profiles/default.conf
