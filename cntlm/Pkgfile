@@ -4,14 +4,14 @@
 # Depends on: libpthread-stubs
 
 name=cntlm
-version=0.35.1
+version=0.92.1
 release=1
-source=(http://downloads.sourceforge.net/project/$name/$name/$name%200$version/$name-$version.tar.gz \
+source=(http://downloads.sourceforge.net/project/$name/$name/$name%20$version/$name-$version.tar.bz2 \
 	rc.$name)
 
 build(){
 	cd $name-$version
-	sed -i -e "s!/usr/local!$PKG/usr!" Makefile
+	sed -i -e "s!/usr!$PKG/usr!" Makefile
 	./configure 
 	make 
 	make install
