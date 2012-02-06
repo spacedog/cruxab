@@ -4,9 +4,9 @@
 # Depends on: gwenhywfar
 
 name=aqbanking
-version=5.0.11
+version=5.0.22
 release=1
-source=("http://www2.aquamaniac.de/sites/download/download.php?package=03&release=84&file=01&dummy=$name-$version.tar.gz")
+source=("http://www2.aquamaniac.de/sites/download/download.php?package=03&release=92&file=01&dummy=$name-$version.tar.gz")
 
 build(){
 	cd $name-$version

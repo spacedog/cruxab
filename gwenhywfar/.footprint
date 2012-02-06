@@ -13,10 +13,6 @@ drwxr-xr-x	root/root	usr/include/gwenhywfar4/gwen-gui-cpp/
 -rw-r--r--	root/root	usr/include/gwenhywfar4/gwen-gui-cpp/cppdialog.hpp
 -rw-r--r--	root/root	usr/include/gwenhywfar4/gwen-gui-cpp/cppgui.hpp
 -rw-r--r--	root/root	usr/include/gwenhywfar4/gwen-gui-cpp/cppwidget.hpp
-drwxr-xr-x	root/root	usr/include/gwenhywfar4/gwen-gui-gtk2/
--rw-r--r--	root/root	usr/include/gwenhywfar4/gwen-gui-gtk2/gtk2_gui.h
-drwxr-xr-x	root/root	usr/include/gwenhywfar4/gwen-gui-qt4/
--rw-r--r--	root/root	usr/include/gwenhywfar4/gwen-gui-qt4/qt4_gui.hpp
 drwxr-xr-x	root/root	usr/include/gwenhywfar4/gwenhywfar/
 -rw-r--r--	root/root	usr/include/gwenhywfar4/gwenhywfar/args.h
 -rw-r--r--	root/root	usr/include/gwenhywfar4/gwenhywfar/base64.h
@@ -156,21 +152,11 @@ lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/60/dbio/xmldb.so -> xmldb.so.0.0
 lrwxrwxrwx	root/root	usr/lib/gwenhywfar/plugins/60/dbio/xmldb.so.0 -> xmldb.so.0.0.1
 -rwxr-xr-x	root/root	usr/lib/gwenhywfar/plugins/60/dbio/xmldb.so.0.0.1
 -rw-r--r--	root/root	usr/lib/gwenhywfar/plugins/60/dbio/xmldb.xml
--rwxr-xr-x	root/root	usr/lib/libgwengui-gtk2.la
-lrwxrwxrwx	root/root	usr/lib/libgwengui-gtk2.so -> libgwengui-gtk2.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgwengui-gtk2.so.0 -> libgwengui-gtk2.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgwengui-gtk2.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgwengui-qt4.la
-lrwxrwxrwx	root/root	usr/lib/libgwengui-qt4.so -> libgwengui-qt4.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libgwengui-qt4.so.0 -> libgwengui-qt4.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libgwengui-qt4.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libgwenhywfar.la
-lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so -> libgwenhywfar.so.60.2.0
-lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so.60 -> libgwenhywfar.so.60.2.0
--rwxr-xr-x	root/root	usr/lib/libgwenhywfar.so.60.2.0
+lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so -> libgwenhywfar.so.60.3.1
+lrwxrwxrwx	root/root	usr/lib/libgwenhywfar.so.60 -> libgwenhywfar.so.60.3.1
+-rwxr-xr-x	root/root	usr/lib/libgwenhywfar.so.60.3.1
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
--rw-r--r--	root/root	usr/lib/pkgconfig/gwengui-gtk2.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/gwengui-qt4.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/gwenhywfar.pc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/aclocal/
@@ -187,10 +173,12 @@ drwxr-xr-x	root/root	usr/share/gwenhywfar/typemaker2/c/
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/char.tm2
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/char_array.tm2
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/char_ptr.tm2
+-rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/double.tm2
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/gwen_buffer.tm2
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/gwen_date.tm2
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/gwen_idlist64.tm2
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/gwen_time.tm2
+-rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/idmap_base.tm2
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/int.tm2
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/int_base.tm2
 -rw-r--r--	root/root	usr/share/gwenhywfar/typemaker2/c/list1_base.tm2
