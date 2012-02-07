@@ -4,7 +4,7 @@
 # Depends on: ruby docutils
 
 name=facter 
-version=1.6.0
+version=1.6.5
 release=1
 source=(http://puppetlabs.com/downloads/$name/$name-$version.tar.gz)
 

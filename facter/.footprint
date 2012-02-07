@@ -11,6 +11,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.9/facter/
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/application.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/architecture.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/arp.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/augeasversion.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/domain.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/ec2.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/facterversion.rb
@@ -37,6 +38,7 @@ drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.9/facter/
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/network.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/operatingsystem.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/operatingsystemrelease.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/osfamily.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/path.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/physicalprocessorcount.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/processor.rb
@@ -54,7 +56,9 @@ drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.9/facter/
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/uptime_seconds.rb
 drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/collection.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/config.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/confine.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/ec2.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/fact.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/ip.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/loader.rb
@@ -62,16 +66,19 @@ drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/macosx.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/manufacturer.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/memory.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/monkey_patches.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/netmask.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/plist.rb
 drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/plist/
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/plist/generator.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/plist/parser.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/processor.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/resolution.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/uptime.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/values.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/virtual.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/vlans.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/wmi.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/util/xendomains.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/virtual.rb
 -rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.9/facter/vlans.rb
