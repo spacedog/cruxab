@@ -4,7 +4,7 @@
 # Depends on: fop
 
 name=erlang
-version=R15B
+version=R15B01
 release=1
 source=(http://erlang.org/download/otp_src_$version.tar.gz)
 
