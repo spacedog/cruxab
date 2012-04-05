@@ -30,6 +30,8 @@ drwxr-xr-x	root/root	usr/include/quagga/
 -rw-r--r--	root/root	usr/include/quagga/memory.h
 -rw-r--r--	root/root	usr/include/quagga/memtypes.h
 -rw-r--r--	root/root	usr/include/quagga/network.h
+drwxr-xr-x	root/root	usr/include/quagga/ospfapi/
+-rw-r--r--	root/root	usr/include/quagga/ospfapi/ospf_apiclient.h
 drwxr-xr-x	root/root	usr/include/quagga/ospfd/
 -rw-r--r--	root/root	usr/include/quagga/ospfd/ospf_api.h
 -rw-r--r--	root/root	usr/include/quagga/ospfd/ospf_asbr.h
@@ -67,6 +69,11 @@ drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libospf.so -> libospf.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libospf.so.0 -> libospf.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libospf.so.0.0.0
+-rw-r--r--	root/root	usr/lib/libospfapiclient.a
+-rwxr-xr-x	root/root	usr/lib/libospfapiclient.la
+lrwxrwxrwx	root/root	usr/lib/libospfapiclient.so -> libospfapiclient.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libospfapiclient.so.0 -> libospfapiclient.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libospfapiclient.so.0.0.0
 -rw-r--r--	root/root	usr/lib/libzebra.a
 -rwxr-xr-x	root/root	usr/lib/libzebra.la
 lrwxrwxrwx	root/root	usr/lib/libzebra.so -> libzebra.so.0.0.0
@@ -74,6 +81,7 @@ lrwxrwxrwx	root/root	usr/lib/libzebra.so.0 -> libzebra.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libzebra.so.0.0.0
 drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/bgpd
+-rwxr-xr-x	root/root	usr/sbin/ospfclient
 -rwxr-xr-x	root/root	usr/sbin/ospfd
 -rwxr-xr-x	root/root	usr/sbin/ripd
 -rwxr-xr-x	root/root	usr/sbin/watchquagga
