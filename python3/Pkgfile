@@ -1,0 +1,29 @@
+# Description: Python is a remarkably powerful dynamic programming language 
+# URL:  http://www.python.org/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: expat tcl      
+
+name=python3
+version=3.2.2 
+release=1
+source=(http://www.python.org/ftp/python/$version/Python-$version.tar.bz2)
+
+build(){
+	cd Python-$version
+	./configure --prefix=/usr \
+              --mandir=/usr/man \
+              --with-thread \
+              --enable-ipv6 \
+              --disable-nls 
+	make 
+	make DESTDIR=$PKG install
+
+  rm -r $PKG/usr/lib/python3.2/{ctypes,email,importlib,sqlite3,unittest,tkinter}/test
+  rm -r $PKG/usr/lib/python3.2/{distutils,lib2to3}/tests
+
+  rm $PKG/usr/lib/python3.2/{distutils,site-packages}/README
+  rm $PKG/usr/lib/python3.2/test/data/README
+  rm $PKG/usr/lib/python3.2/ctypes/macholib/README.ctypes 
+  rm $PKG/usr/lib/python3.2/idlelib/{ChangeLog,{NEWS,TODO,README}.txt}
+  
+}
