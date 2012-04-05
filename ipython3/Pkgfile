@@ -1,0 +1,16 @@
+# Description: Powerful Python shells 
+# URL: http://ipython.org
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: python3-setuputils
+
+name=ipython3
+version=0.12
+release=1
+source=(http://archive.ipython.org/release/$version/ipython-$version.tar.gz)
+
+build(){
+	cd ipython-$version
+	python3 setup.py bdist
+	tar --exclude=./usr/share -xzf dist/ipython-$version.linux-i686.tar.gz -C ${PKG}
+
+}
