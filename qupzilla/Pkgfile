@@ -1,0 +1,19 @@
+# Description: Lightweight multiplatform browser
+# URL: http://www.qupzilla.com/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: qt4
+
+name=qupzilla
+version=1.2.0
+release=1
+source=(https://github.com/downloads/QupZilla/$name/QupZilla-$version.tar.gz)
+
+build(){
+  cd QupZilla-$version/src
+  qmake 
+  make 
+  make INSTALL_ROOT=$PKG install
+
+  rm -rf $PKG/usr/share/qupzilla
+
+}
