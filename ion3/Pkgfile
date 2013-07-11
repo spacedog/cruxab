@@ -1,7 +1,7 @@
 # Description: Ion is a tiling tabbed X11 window manager
 # URL: http://tuomov.iki.fi/software
 # Maintainer: anton baranov, abaranov dot anton at gmail dot com	
-# Depends on: lua xorg-libsm xorg-libxext
+# Depends on: lua51 xorg-libsm xorg-libxext
 
 name=ion3
 version=3-20090110
@@ -13,9 +13,15 @@ build(){
 
 	sed -ie 's|^LUA_DIR=/usr/local|LUA_DIR=/usr|g' system.mk
 	sed -ie 's|^MANDIR=$(PREFIX)/share/man|MANDIR=$(PREFIX)/man|g' system.mk
+	sed -ie 's|^LUA_LIBS = -L$(LUA_DIR)/lib -llua|LUA_LIBS=-L$(LUA_DIR)/lib -llua5.1|g' system.mk
+	sed -ie 's|^LUA=$(LUA_DIR)/bin/lua|LUA=$(LUA_DIR)/bin/lua5.1|g' system.mk
+	sed -ie 's|^LUA=$(LUA_DIR)/bin/luac|LUA=$(LUA_DIR)/bin/luac5.1|g' system.mk
+	sed -ie 's|^#include "exports.h"||' mod_tiling/main.c
+	sed -ie 's|^#include "exports.h"||' mod_menu/main.c
+	sed -ie 's|^#include "exports.h"||' mod_dock/dock.c
 
 	make 
-	make PREFIX=$PKG/usr install
+	make PREFIX=$PKG/usr ETCDIR=$PKG/etc/ion3 install
 	rm -rf $PKG/usr/share/{ion3,doc,locale}
 	rm -rf $PKG/usr/man/{cs,fi,de}
 
