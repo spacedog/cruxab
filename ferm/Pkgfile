@@ -1,0 +1,24 @@
+# Description: tool to maintain complex firewalls
+# URL: http://ferm.foo-projects.org/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: 
+
+name=ferm
+version=2.2
+release=1
+source=(http://ferm.foo-projects.org/download/${version}/${name}-${version}.tar.gz rc.$name)
+
+build(){
+	cd $name-$version
+
+	sed -ie "s!^PREFIX = /usr!PREFIX = ${PKG}/usr!" config.mk
+
+	make DESTDIR=$PKG install
+	# Install rc script 
+	#mkdir -p ${PKG}/etc/rc.d
+	install -D -o root -g root -m 0755 $SRC/rc.$name $PKG/etc/rc.d/$name
+
+	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/lib
+
+}
