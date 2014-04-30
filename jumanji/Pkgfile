@@ -1,0 +1,19 @@
+# Description: Highly customizable and functional web browser
+# URL: http://pwmt.org/projects/jumanji/ 
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: girara webkit libsoup
+
+name=jumanji
+version=0.0.1
+release=1
+source=()
+
+build(){
+  git clone git://pwmt.org/${name}.git
+  cd ${name}
+	make 
+	make MANPREFIX=/usr/man DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+
+}
