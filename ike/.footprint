@@ -1,0 +1,31 @@
+drwxr-xr-x	root/root	etc/
+-rw-r--r--	root/root	etc/iked.conf.sample
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/ikec
+-rwxr-xr-x	root/root	usr/bin/qikea
+-rwxr-xr-x	root/root	usr/bin/qikec
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libss_idb.so -> libss_idb.so.2.2.1
+-rwxr-xr-x	root/root	usr/lib/libss_idb.so.2.2.1
+lrwxrwxrwx	root/root	usr/lib/libss_ike.so -> libss_ike.so.2.2.1
+-rwxr-xr-x	root/root	usr/lib/libss_ike.so.2.2.1
+lrwxrwxrwx	root/root	usr/lib/libss_ip.so -> libss_ip.so.2.2.1
+-rwxr-xr-x	root/root	usr/lib/libss_ip.so.2.2.1
+lrwxrwxrwx	root/root	usr/lib/libss_ith.so -> libss_ith.so.2.2.1
+-rwxr-xr-x	root/root	usr/lib/libss_ith.so.2.2.1
+lrwxrwxrwx	root/root	usr/lib/libss_log.so -> libss_log.so.2.2.1
+-rwxr-xr-x	root/root	usr/lib/libss_log.so.2.2.1
+lrwxrwxrwx	root/root	usr/lib/libss_pfk.so -> libss_pfk.so.2.2.1
+-rwxr-xr-x	root/root	usr/lib/libss_pfk.so.2.2.1
+drwxr-xr-x	root/root	usr/man/
+drwxr-xr-x	root/root	usr/man/man1/
+-rw-r--r--	root/root	usr/man/man1/ikec.1.gz
+-rw-r--r--	root/root	usr/man/man1/qikea.1.gz
+-rw-r--r--	root/root	usr/man/man1/qikec.1.gz
+drwxr-xr-x	root/root	usr/man/man5/
+-rw-r--r--	root/root	usr/man/man5/iked.conf.5.gz
+drwxr-xr-x	root/root	usr/man/man8/
+-rw-r--r--	root/root	usr/man/man8/iked.8.gz
+drwxr-xr-x	root/root	usr/sbin/
+-rwxr-xr-x	root/root	usr/sbin/iked
