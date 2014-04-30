@@ -1,0 +1,16 @@
+# Description: DjVu support to zathura by using the djvulibre library.
+# URL: http://pwmt.org/projects/zathura-djvu
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: zathura djvulibre
+
+name=zathura-djvu
+version=0.2.3
+release=1
+source=(http://pwmt.org/projects/${name}/download/${name}-${version}.tar.gz)
+
+build(){
+	cd $name-$version
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+
+}
