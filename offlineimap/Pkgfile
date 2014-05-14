@@ -1,0 +1,16 @@
+# Description: Synchronizes emails between two repositories
+# URL: http://offlineimap.org
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com
+# Depends on: python
+
+name=offlineimap
+version=6.5.4
+release=1
+source=(https://github.com/spaetz/${name}/archive/v${version}.tar.gz)
+
+build(){
+  mkdir ${PKG}/usr
+	cd $name-$version
+  make
+  python setup.py install --quiet --prefix=${PKG}/usr
+}
