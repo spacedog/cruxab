@@ -1,0 +1,19 @@
+# Description: The standard unix password manager
+# URL:http://www.zx2c4.com/projects/password-store/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: gnupg git xclip pwgen tree
+
+name=pass
+version=1.6.2
+release=1
+source=(http://git.zx2c4.com/password-store/snapshot/password-store-${version}.tar.xz)
+
+build(){
+	cd password-store-$version
+	make DESTDIR=$PKG \
+       PREFIX=/usr \
+       FORCE_BASHCOMP=1 \
+       FORCE_ZSHCOMP=1 \
+       MANDIR=/usr/man \
+       install
+}
