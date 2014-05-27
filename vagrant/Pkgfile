@@ -1,0 +1,13 @@
+# Description: Tool for building complete development environments
+# URL: http://www.vagrantup.com/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: virtualbox
+
+name=vagrant
+version=1.6.2
+release=1
+source=(https://dl.bintray.com/mitchellh/${name}/${name}_${version}_x86_64.rpm)
+
+build(){
+  cp -R ${SRC}/* ${PKG}/
+}
