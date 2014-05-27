@@ -1,0 +1,20 @@
+# Description: Tool for building complete development environments
+# URL: http://www.vagrantup.com/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: gem-bundler virtualbox
+
+name=vagrant
+version=1.5.0
+release=1
+#source=(https://codeload.github.com/mitchellh/${name}-${version}.tar.gz)
+
+build(){
+  mkdir -p ${PKG}/usr/lib/ruby/gems/1.9
+  gem install vagrant \
+      -i ${PKG}/usr/lib/ruby/gems/1.9
+
+  rm -rf  ${PKG}/usr/lib/ruby/gems/1.9/doc/
+  
+  mkdir -p ${PKG}/usr/bin
+  ln -s  /usr/lib/ruby/gems/1.9/bin/${name} ${PKG}/usr/bin/${name}
+}
