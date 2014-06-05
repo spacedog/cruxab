@@ -1,0 +1,25 @@
+# Description: Tiling, tabbed window manager for the X window system
+# URL: http://notion.sourceforge.net
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: lua51 xorg-libsm xorg-libxext
+
+name=notion
+version=3-2014052800
+release=1
+source=(http://sourceforge.net/projects/${name}/files/${name}-${version}-src.tar.bz2 \
+notion.desktop
+)
+
+build(){
+	cd ${name}-$version
+
+
+	make PREFIX=/usr
+	make PREFIX=$PKG/usr ETCDIR=$PKG/etc/notion MANDIR=$PKG/usr/man install
+
+  install -D -m 644 $SRC/notion.desktop $PKG/usr/share/xsessions/notion.desktop
+  rm -rf $PKG/usr/share/{doc,notion,locale}
+  rm -rf $PKG/usr/man/{fi,cs}
+
+
+}

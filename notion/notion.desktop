@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=notion
+Comment=Login to notion wm
+Exec=/usr/bin/notion
+TryExec=/usr/bin/notion
+Type=Application
+
