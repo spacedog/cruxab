@@ -3,16 +3,16 @@
 # Maintainer: anton baranov, abaranov dot anton at gmail dot com	
 # Depends on: ruby docutils
 
-name=facter 
-version=1.6.5
+name=facter
+version=2.0.1
 release=1
 source=(http://puppetlabs.com/downloads/$name/$name-$version.tar.gz)
 
 build(){
 	cd $name-$version
-	ruby ./install.rb --no-tests \
+	ruby ./install.rb  \
 							--no-rdoc \
-							--no-man \
+							--mandir=/usr/man \
 							--destdir=$PKG
 
 }
