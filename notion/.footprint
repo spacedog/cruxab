@@ -25,6 +25,7 @@ drwxr-xr-x	root/root	etc/notion/
 -rw-r--r--	root/root	etc/notion/look_simpleblue.lua
 -rw-r--r--	root/root	etc/notion/lookcommon_clean.lua
 -rw-r--r--	root/root	etc/notion/lookcommon_emboss.lua
+-rw-r--r--	root/root	etc/notion/net_client_list.lua
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/notion

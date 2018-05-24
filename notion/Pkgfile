@@ -4,9 +4,9 @@
 # Depends on: lua51 xorg-libsm xorg-libxext
 
 name=notion
-version=3-2014052800
+version=3-2017050501
 release=1
-source=(http://sourceforge.net/projects/${name}/files/${name}-${version}-src.tar.bz2 \
+source=(https://github.com/raboof/notion/archive/${version}.tar.gz
 notion.desktop
 )
 
