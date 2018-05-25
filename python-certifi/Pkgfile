@@ -1,0 +1,16 @@
+# Description: collection of Root Certificates for validating SSL certificates
+# URL: https://certifi.io
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com
+# Depends on: python
+
+name=python-certifi
+version=2018.04.16
+release=1
+source=(https://github.com/certifi/${name}/archive/${version}.tar.gz)
+
+build(){
+	cd ${name}-$version
+	python setup.py install --root=$PKG --prefix=/usr
+	rm -rf $PKG/usr/lib/python*/site-packages/certifi-*.egg-info
+
+}
