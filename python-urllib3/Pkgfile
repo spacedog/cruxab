@@ -1,0 +1,16 @@
+# Description: Python HTTP library
+# URL: https://urllib3.readthedocs.io/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com
+# Depends on: python
+
+name=python-urllib3
+version=1.22
+release=1
+source=(https://github.com/urllib3/urllib3/archive/${version}.tar.gz)
+
+build(){
+	cd urllib3-$version
+	python setup.py install --root=$PKG --prefix=/usr
+	rm -rf $PKG/usr/lib/python*/site-packages/urllib3-*.egg-info
+
+}
