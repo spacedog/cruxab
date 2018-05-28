@@ -1,0 +1,14 @@
+# Description: A command line interface for KeePass 1.x or 2.x database files
+# URL: http://kpcli.sourceforge.net/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: p5-clone p5-term-readkey p5-crypt-rijndael p5-sort-naturally p5-term-shellui p5-file-keepass p5-term-readline-gnu
+
+name=kpcli
+version=3.2
+release=1
+source=(https://downloads.sourceforge.net/project/${name}/${name}-${version}.pl)
+
+build(){
+  install -D -m 755 -o root -g root ${SRC}/${name}-${version}.pl ${PKG}/usr/bin/${name}
+
+}
