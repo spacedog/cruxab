@@ -1,0 +1,15 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/perl5/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.26/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.26/Term/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.26/Term/ShellUI.pm
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.26/Text/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.26/Text/Shellwords/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.26/Text/Shellwords/Cursor.pm
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man3/
+-r--r--r--	root/root	usr/share/man/man3/Term::ShellUI.3pm.gz
+-r--r--r--	root/root	usr/share/man/man3/Text::Shellwords::Cursor.3pm.gz

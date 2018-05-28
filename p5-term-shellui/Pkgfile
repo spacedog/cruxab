@@ -1,0 +1,23 @@
+# Description: A fully-featured shell-like command line environment
+# URL: https://metacpan.org/pod/Term::ShellUI
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: 
+
+name=p5-term-shellui
+version=0.92
+release=1
+source=(https://cpan.metacpan.org/authors/id/B/BR/BRONSON/Term-ShellUI-0.92.tar.gz)
+
+build(){
+	cd Term-ShellUI-${version}
+  perl Makefile.PL
+	make OPTIMIZE="$CFLAGS"
+	make DESTDIR="$PKG" install
+
+  find $PKG \
+    -name .packlist -or \
+    -name perllocal.pod -or \
+    -name '*.bs' -or \
+    -name autosplit.ix | xargs rm
+  find $PKG -depth -empty -exec rm -rf {} \;
+}
