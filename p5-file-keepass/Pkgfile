@@ -1,0 +1,23 @@
+# Description: Interface to KeePass V1 and V2 database files
+# URL: https://metacpan.org/pod/File::KeePass
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: 
+
+name=p5-file-keepass
+version=2.03
+release=1
+source=(https://cpan.metacpan.org/authors/id/R/RH/RHANDOM/File-KeePass-2.03.tar.gz)
+
+build(){
+	cd File-KeePass-${version}
+  perl Makefile.PL
+	make OPTIMIZE="$CFLAGS"
+	make DESTDIR="$PKG" install
+
+  find $PKG \
+    -name .packlist -or \
+    -name perllocal.pod -or \
+    -name '*.bs' -or \
+    -name autosplit.ix | xargs rm
+  find $PKG -depth -empty -exec rm -rf {} \;
+}
