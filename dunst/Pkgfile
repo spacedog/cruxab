@@ -1,0 +1,16 @@
+# Description: lightweight replacement for the notification-daemons
+# URL: https://dunst-project.org/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com	
+# Depends on: dbus libxdg-basedir xorg-libxinerama xorg-libxrandr
+
+name=dunst
+version=1.3.2
+release=1
+source=(https://github.com/${name}-project/${name}/archive/v${version}.tar.gz)
+
+build(){
+	cd $name-$version
+	make PREFIX=/usr
+	make PREFIX=/usr DESTDIR=$PKG MANPREFIX=/usr/share/man install
+
+}
