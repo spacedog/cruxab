@@ -1,0 +1,20 @@
+# Description: commandline option parser for Ruby
+# URL: https://github.com/ManageIQ/trollop
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com
+# Depends on: ruby
+
+name=rubygem-trollop
+version=2.1.2
+release=1
+source=()
+
+build(){
+  gem install \
+      --build-root=$PKG \
+      --ignore-dependencies \
+      --version ${version} \
+      trollop
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/cache/trollop*.gem
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/doc/trollop*
+
+}
