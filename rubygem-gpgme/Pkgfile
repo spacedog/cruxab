@@ -1,0 +1,20 @@
+# Description: a ruby interface to GnuPG Made Ease
+# URL: https://github.com/ueno/ruby-gpgme
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com
+# Depends on: ruby gpgme libgpg-error  libassuan rubygem-miniportile
+name=rubygem-gpgme
+version=2.0.16
+release=1
+source=()
+
+build(){
+  gem install \
+      --build-root=$PKG \
+      --ignore-dependencies \
+      --version ${version} \
+      gpgme
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/cache/gpgme*.gem
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/doc/gpgme*
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/gems/gpgme-*/examples
+
+}
