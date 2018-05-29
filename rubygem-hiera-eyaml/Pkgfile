@@ -1,0 +1,20 @@
+# Description: backend for Hiera that provides per-value encryption of sensitive data
+# URL: https://github.com/voxpupuli/hiera-eyaml
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com
+# Depends on: rubygem-trollop rubygem-highline
+
+name=rubygem-hiera-eyaml
+version=2.1.0
+release=1
+source=()
+
+build(){
+  gem install \
+      --build-root=$PKG \
+      --ignore-dependencies \
+      --version ${version} \
+      hiera-eyaml
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/cache/hiera-eyaml*.gem
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/doc/hiera-eyaml*
+
+}
