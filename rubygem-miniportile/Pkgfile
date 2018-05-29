@@ -1,0 +1,20 @@
+# Description: Simple autoconf builder for developers
+# URL: https://github.com/flavorjones/mini_portile
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com
+# Depends on: ruby gpgme libgpg-error  libassuan
+name=rubygem-miniportile
+version=2.3.0
+release=1
+source=()
+
+build(){
+  gem install \
+      --build-root=$PKG \
+      --ignore-dependencies \
+      --version ${version} \
+      mini_portile2
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/cache/mini_portile2*.gem
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/doc/mini_portile2*
+  rm -rf ${PKG}/usr/lib/ruby/gems/*.*/gems/minit_portile2-*/examples
+
+}
