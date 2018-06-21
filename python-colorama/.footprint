@@ -1,0 +1,17 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/python2.7/
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/colorama/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/ansi.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/ansi.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/ansitowin32.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/ansitowin32.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/initialise.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/initialise.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/win32.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/win32.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/winterm.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/colorama/winterm.pyc
