@@ -4,15 +4,15 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
-drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev146-py2.7.egg-info/
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev146-py2.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev146-py2.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev146-py2.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev146-py2.7.egg-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev146-py2.7.egg-info/not-zip-safe
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev146-py2.7.egg-info/pbr.json
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev146-py2.7.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev146-py2.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev169-py2.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev169-py2.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev169-py2.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev169-py2.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev169-py2.7.egg-info/entry_points.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev169-py2.7.egg-info/not-zip-safe
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev169-py2.7.egg-info/pbr.json
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev169-py2.7.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review-0.0.1.dev169-py2.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/git_review/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review/__init__.py (EMPTY)
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/git_review/__init__.pyc

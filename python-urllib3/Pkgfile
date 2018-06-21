@@ -1,7 +1,7 @@
 # Description: Python HTTP library
 # URL: https://urllib3.readthedocs.io/
 # Maintainer: anton baranov, abaranov dot anton at gmail dot com
-# Depends on: python
+# Depends on: python-setuptools
 
 name=python-urllib3
 version=1.22
