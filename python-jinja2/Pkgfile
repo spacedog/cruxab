@@ -1,0 +1,18 @@
+# Description: python template engine
+# URL: http://jinja.pocoo.org/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com
+# Depends on: python-markupsafe
+
+name=python-jinja2
+version=2.10
+release=1
+source=(https://github.com/pallets/jinja/archive/${version}.tar.gz)
+
+build(){
+	cd jinja-${version}
+	python setup.py install \
+         --root=$PKG \
+         --prefix=/usr
+	rm -rf $PKG/usr/lib/python2*/site-packages/Jinja2-*.egg-info
+
+}
