@@ -1,0 +1,18 @@
+# Description: radically simple IT automation platform
+# URL: https://www.ansible.com/
+# Maintainer: anton baranov, abaranov dot anton at gmail dot com
+# Depends on: python-jinja2 python-yaml
+
+name=ansible
+version=2.5.5
+release=1
+source=(https://github.com/${name}/${name}/archive/v${version}.tar.gz)
+
+build(){
+	cd ${name}-${version}
+	python setup.py install \
+         --root=$PKG \
+         --prefix=/usr
+	rm -rf $PKG/usr/lib/python2*/site-packages/ansible-*.egg-info
+
+}
