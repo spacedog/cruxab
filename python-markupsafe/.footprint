@@ -1,0 +1,15 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/python2.7/
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
+drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/markupsafe/
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/markupsafe/__init__.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/markupsafe/__init__.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/markupsafe/_compat.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/markupsafe/_compat.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/markupsafe/_constants.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/markupsafe/_constants.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/markupsafe/_native.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/markupsafe/_native.pyc
+-rw-rw-r--	root/root	usr/lib/python2.7/site-packages/markupsafe/_speedups.c
+-rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/markupsafe/_speedups.so
