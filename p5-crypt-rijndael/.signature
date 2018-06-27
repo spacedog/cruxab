@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7EyJj7jb8xUBGvfu95N+/C+gENCuqGcn9eLPDYwy0E104I/j9YjYcPPTxslVkr8xbh40zYhIsAeAYZ08LSC6ogAw=
+SHA256 (Pkgfile) = 5be6ea5650cb18ebd09f4224eaa337c1313a0a1fdbce20d0b8c495658e596473
+SHA256 (.footprint) = 252aef1faeb41d46d1d5eaa061fc4c8e574728d0b0d73493c6e8fc9b37951dce
+SHA256 (Crypt-Rijndael-1.13.tar.gz) = cd7209a6dfe0a3dc8caffe1aa2233b0e6effec7572d76a7a93feefffe636214e

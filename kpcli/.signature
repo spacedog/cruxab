@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7E3lo/qeP6FkoLJCBu8aSo7WPtHj5a2bnt6Tsg28y0XsHnqjjfZqe/pXe80agCvMxZq2z2ExUxGJRTiwRWbRvgAo=
+SHA256 (Pkgfile) = 824cd11db9b4bfe9876e7b1df52ded7b06e66a644ea6416c8156536bdf013f07
+SHA256 (.footprint) = 5d55f737cc912d804e4b3372c39ba6ce507c3a775298c771fc124e1f67f7ff77
+SHA256 (kpcli-3.2.pl) = 615a1bae19ed0c132076a809b162a66ea0dc22c1d992a8c6e1f2e1aaedfae687

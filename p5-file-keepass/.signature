@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7E5HlTZSt/DgEZCqibFX09mOVz2B5MgdIpcdTusFDPz+VuSPl2CnSRsnnXxw9pNLd3F8gNxSwTkvQ7ZMi5+7rbwM=
+SHA256 (Pkgfile) = bc8bfd3a96fcd2d6eed4e6606640e850a03fd185713c85a1e570f2362ba55e04
+SHA256 (.footprint) = f9d24f96c4167c0675fc4eec9f9fd51a69da0190ccb8e366173569db0a9915b4
+SHA256 (File-KeePass-2.03.tar.gz) = c30c688027a52ff4f58cd69d6d8ef35472a7cf106d4ce94eb73a796ba7c7ffa7

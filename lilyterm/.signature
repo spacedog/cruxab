@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7E84zVdJbkOxRvQflnoZYf26fn0MxxUmcqj9mj6SyZMr9WCodUUkW4mZDaqcpnv5CqjHEVASxYs0moOoXVq3fhwE=
+SHA256 (Pkgfile) = ae3dfd4888bc00d3c15b4f70485dbda4f6da4c0459393f9109f452a35c23e899
+SHA256 (.footprint) = 835469dc7dcb74be4073255b767d1112e07eddf36ae3638c2a6d359a5413f4c1
+SHA256 (lilyterm-0.9.9.2.tar.gz) = 980902102f8d2f233ac1cb01f509dcc595e69a5e9ac783ef2d2e59599a3ca9b6

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7E34rJnH3E2/CgFWJANh8pPSfgyHuu1DkBu4U7g0HK8FT2z/N3po5Cr+vb5YgRlQXMoYzL6PUo7TuA5KES480fAU=
+SHA256 (Pkgfile) = 21e8870829ba592d7abe7ef5471796496b839f1998bbb1d271fac78ceaeae211
+SHA256 (.footprint) = 3cb39a5194891b6f793691f90f8888d890daf66670c9d2bc30b3b3ad4f5fba2b
+SHA256 (python-dateutil-2.7.3.tar.gz) = e27001de32f627c22380a688bcc43ce83504a7bc5da472209b4c70f02829f0b8

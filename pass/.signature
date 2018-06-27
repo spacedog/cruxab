@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7EyzxH8dgfx9DQQfChAo2gazkNOaklyN8nIBqENfsqpmqi56lbLT6sqXpYNPwVQiYqqsLET3IyVQpPpGQ5IL59gk=
+SHA256 (Pkgfile) = 6c43180236bfe5727052417a29e8a47af04f51ce36996ba72ecb2ea433819744
+SHA256 (.footprint) = 4abb204b7d15302b3a5cb036ecdce507aee946509897a406a9522ab42363db10
+SHA256 (password-store-1.6.2.tar.xz) = 526c4a362f6b21ffbaa48fe9eed92f7c0af0be210f56160938fb1661a6f162b4

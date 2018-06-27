@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7E/8kQ5g8/XgcyZH/hmbcP+ND+JqzYjJ8dXJ1nFJuxVMJ2jsvGTN61NjPsF1boHqzcqpoKojJmBWbmIjkIV+N1wE=
+SHA256 (Pkgfile) = ca9335a26d9a9e6163cea0cb0db3e4ca53048f1aba7a1dfdc9ea668a6b54632b
+SHA256 (.footprint) = 2cfd6bf6bb7234c8628e31cb87643f1f025e0c27a65d353c62aebadfccbcf9c6
+SHA256 (Clone-0.39.tar.gz) = acb046683e49d650b113634ecf57df000816a49e611b0fff70bf3f93568bfa2d

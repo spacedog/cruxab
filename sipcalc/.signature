@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7ExWBOxSkqeK6pQO1zp5dOI3PmKXJFQ/SvF+eYkrd7UiadwEEfzbICdOtkQsv+xJjyQEgkO2JBHR/nGeNaNP0TwY=
+SHA256 (Pkgfile) = 5c807246b91a4c4b35841dab7d1fb5596ce49d30ff4c7855ac4b53ca15cd8d1c
+SHA256 (.footprint) = 3af10a70346ae86bb492bca34ecaa8b3ee3958f85711d71d7d8b3e30ec72b2c0
+SHA256 (sipcalc-1.1.5.tar.gz) = 44aa89885edb22da84a658f64e72e3714553c7c3d03e7d54a6b4c474fd8cf46f

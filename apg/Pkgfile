@@ -1,12 +1,12 @@
-# Description: 
-# URL: 
+# Description: automated password generator
+# URL: http://www.adel.nursat.kz/apg/
 # Maintainer: anton baranov, abaranov dot anton at gmail dot com	
 # Depends on: 
 
 name=apg
 version=2.2.3
 release=1
-source=(http://www.adel.nursat.kz/apg/download/${name}-${version}.tar.gz)
+source=(https://fossies.org/linux/privat/old/${name}-${version}.tar.gz)
 
 build(){
 	cd $name-$version

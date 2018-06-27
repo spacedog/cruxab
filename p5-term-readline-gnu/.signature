@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7Ewsqca1//F/+C62ujx6472Rw3sAFWExmUGBgAfjzABweX/Uu/v/n5UorQBq88M3iG8AzVuNtqwE+u4P5DHSxNwk=
+SHA256 (Pkgfile) = 1d5a2004fef84ea8ab54f3b8b596a664cbb5688cc65ae76221f2728f0e959a56
+SHA256 (.footprint) = b27b1123bb96842caf10edecb4634995c54d3dd7e516207182fad9c84efe5efb
+SHA256 (Term-ReadLine-Gnu-1.35.tar.gz) = 575d32d4ab67cd656f314e8d0ee3d45d2491078f3b2421e520c4273e92eb9125

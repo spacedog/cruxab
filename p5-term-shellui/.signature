@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/cruxab.pub
+RWR5eEaCxsD7E4umqRPfdJcmAQQWLcQl+t6/FPmO3N8ZIh7ZeImcN3f5H6u8T4UqmTF6tG6lB1eiV4xKzrWd3A4xAcg0XEV/7gw=
+SHA256 (Pkgfile) = abf809358f71f7a2ee8da0b69dd3deb028acf236ca79f6b89686a6e5dea0f2ec
+SHA256 (.footprint) = bd392822b65ed2a105c84a90677ecc6bb75c9ac629844e1c5ce401b7ba75e613
+SHA256 (Term-ShellUI-0.92.tar.gz) = 3279c01c76227335eeff09032a40f4b02b285151b3576c04cacd15be05942bdb
